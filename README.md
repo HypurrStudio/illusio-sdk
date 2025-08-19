@@ -1,22 +1,22 @@
-# HyperLiquid Transaction Studio SDK
+# Illusio SDK
 
-A TypeScript SDK for interacting with the HyperLiquid Transaction Studio API.
+A TypeScript SDK for interacting with the Illusio transaction simulation engine.
 
 ## Installation
 
 ```bash
-npm install @hyperliquid/tx-studio-sdk
+npm install @hypurrstudio/illusio-sdk
 # or
-yarn add @hyperliquid/tx-studio-sdk
+yarn add @hypurrstudio/illusio-sdk
 ```
 
 ## Usage
 
 ```typescript
-import { TxStudioSDK } from '@hyperliquid/tx-studio-sdk';
+import { IllusioSDK } from '@hypurrstudio/illusio-sdk';
 
 // Initialize the SDK
-const sdk = new TxStudioSDK({
+const sdk = new IllusioSDK({
   timeout: 30000, // Optional: default 30s
   retries: 3     // Optional: default 3
 });

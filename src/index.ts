@@ -11,7 +11,7 @@ import { ValidationError } from './errors';
 
 export const BASE_URL = 'https://hypurrstudio.onrender.com';
 
-export class TxStudioSDK {
+export class IllusioSDK {
   private client: HttpClient;
 
   constructor(config: SDKConfig) {

@@ -1,12 +1,12 @@
-import { TxStudioSDK } from '../index';
+import { IllusioSDK } from '../index';
 import { SimulationRequest, SimulationResponse } from '../types';
 import { ValidationError } from '../errors';
 
-describe('TxStudioSDK', () => {
-  let sdk: TxStudioSDK;
+describe('IllusioSDK', () => {
+  let sdk: IllusioSDK;
 
   beforeEach(() => {
-    sdk = new TxStudioSDK({});
+    sdk = new IllusioSDK({});
   });
 
   describe('simulateTransaction', () => {
