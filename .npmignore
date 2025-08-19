@@ -1,0 +1,10 @@
+src
+tests
+jest.config.js
+.eslintrc
+.prettierrc
+tsconfig.json
+.github
+coverage
+*.log
+.DS_Store
